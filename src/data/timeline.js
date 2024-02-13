@@ -1,5 +1,12 @@
 export default[
     {
+        id: '2',
+        year: 'Today',
+        title: 'Web Developer',
+        duration: '6 months',
+        details: 'Selbstständiger Web Developer bei CONNEXX'
+    },
+    {
         id: '0',
         year: 'Today',
         title: 'Notfallsanitäter',
@@ -11,34 +18,34 @@ export default[
         year: 'Today',
         title: 'Rettungshundeführer',
         duration: '2 years',
-        details: 'Rettungshundeführer mit meiner Hündin Sky (xHerder) bei JUH Wien/NÖ'
-    },
-    {
-        id: '2',
-        year: 'Today',
-        title: 'Web Developer',
-        duration: '6 months',
-        details: 'Web Developer selbstständig bei CONNEXX'
+        details: 'Ehrenamtlicher Rettungshundeführer mit Hündin Sky (xHerder) bei der Rettungshundestaffel JUH Wien/NÖ'
     },
     {
         id: '3',
         year: '2020',
         title: 'Rettungssanitäter',
         duration: '1 month',
-        details: 'Rettungssanitäter JUH Wien/NÖ'
+        details: 'Rettungssanitäter Johanniter Unfall Hilfe Wien/NÖ'
     },
     {
         id: '4',
         year: '2019',
-        title: 'Web Developer',
+        title: 'Junior Web Developer',
         duration: '3 months',
-        details: 'Web Developer bei Siemens'
+        details: 'Junior Web Developer Maintenance in MindSphere & Energy Manager bei Siemens AG Österreich'
     },
     {
         id: '5',
         year: '2018',
-        title: 'Web Developer',
+        title: 'Junior Web Developer & Projektassistent',
         duration: '5 months',
-        details: 'Web Developer bei REXEL'
+        details: 'Junior Web Developer REXEL Power App & Projektassistent IoT / Industrie 4.0 / Energy Solutions bei REXEL Asutria'
+    },
+    {
+        id: '6',
+        year: '2017',
+        title: 'Project Manager & Web Developer',
+        duration: '10 months',
+        details: 'Project Manager & Web Developer Citizens Science bei BOKU Wien'
     },
 ]

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
@@ -78,9 +78,9 @@ function App() {
       </button>
       <button 
         onClick={handleScroll}
-        className="fixed p-2 z-10 right-40 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
+        className="fixed p-2 z-10 left-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md"
       >
-        Hello
+        Contact
       </button>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
@@ -90,7 +90,6 @@ function App() {
           <Contact ref={ref} />
           <Footer />
         </div>
-        TEST
       </div>
     </>
   );
