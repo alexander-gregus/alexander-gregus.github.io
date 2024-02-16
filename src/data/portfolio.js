@@ -7,6 +7,13 @@ export default [
         link: 'https://alexander-gregus.github.io/',
     },
     {
+        id: 0,
+        title: 'Website & App für Prüfungsordnungen Hundesport (WIP)',
+        imgUrl: '/assets/connexxproject.jpg',
+        stack: ['Ionic'],
+        link: '',
+    },
+    {
         id: 1,
         title: 'Connexx Quiz App (WIP)',
         imgUrl: '/assets/connexxapp.jpg',
